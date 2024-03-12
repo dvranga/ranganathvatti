@@ -1,26 +1,26 @@
 [
     {
-      "title": "Project A",
+      "title": "Namaste Youtube",
       "imageSrc": "projects/project.png",
       "description": "This is a project made to learn the latest languages by building an app.",
       "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "demo": "https://github.com/dvranga/namaste-youtube",
+      "source": "https://github.com/dvranga/namaste-youtube"
     },
     {
-      "title": "Project B",
+      "title": "Food Villa",
       "imageSrc": "projects/project.png",
       "description": "This is a project made to learn the latest languages by building an app.",
       "skills": ["React", "Express", "Node", "Sass"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "demo": "https://github.com/dvranga/namaste-food-villa",
+      "source": "https://github.com/dvranga/namaste-food-villa"
     },
     {
-      "title": "Project C",
+      "title": "Portfolio",
       "imageSrc": "projects/project.png",
       "description": "This is a project made to learn the latest languages by building an app.",
       "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "demo": "https://github.com/dvranga/ranganathvatti",
+      "source": "https://github.com/dvranga/ranganathvatti"
     }
   ]

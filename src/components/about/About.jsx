@@ -7,7 +7,7 @@ const About = () => {
         <section className={styles.container} id='about'>
             <h2 className={styles.title}>About</h2>
             <div className={styles.content}>
-                <img className={styles.aboutImage} src={getImageUrl('hero/ranganathvatti.png')} alt='ranganath-vatti' />
+                <img className={styles.aboutImage} src={getImageUrl('hero/ranganathvatti11.png')} alt='ranganath-vatti' />
                 <ul className={styles.aboutItems}>
                     <li className={styles.aboutItem}>
                         <img src={getImageUrl('about/cursorIcon.png')} alt='cursorIcon' />
