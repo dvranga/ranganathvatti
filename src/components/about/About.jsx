@@ -3,6 +3,16 @@ import styles from "./About.module.css";
 import { getImageUrl } from '../../utils'
 
 const About = () => {
+
+    
+function getYearsOfExperience(startYear = 2021, startMonth = 0) {
+  const startDate = new Date(startYear, startMonth); // January is month 0
+  const now = new Date();
+  const diffInMs = now - startDate;
+  const diffInYears = diffInMs / (1000 * 60 * 60 * 24 * 365.25);
+  return Math.floor(diffInYears);
+}
+
     return (
         <section className={styles.container} id='about'>
             <h2 className={styles.title}>About</h2>
@@ -13,7 +23,7 @@ const About = () => {
                         <img src={getImageUrl('about/cursorIcon.png')} alt='cursorIcon' />
                         <div className={styles.aboutItemText}>
                             <h3>Frontend Developer</h3>
-                            <p>I am frontend developer with 3 years of experience</p>
+                            <p>I am frontend developer with {getYearsOfExperience()} years of experience</p>
                         </div>
                     </li>
                     <li className={styles.aboutItem}>
